@@ -125,6 +125,19 @@ spec:
 
 ```
 
+2.We can keep the Service yml is same file as that deployment yaml. We just need to separate documents using **---**
+
+3.Create the service by running mongo.yaml file using command **kubectl apply -f mongo.yaml**
+
+![image](https://user-images.githubusercontent.com/52998083/226173375-362ff1b6-0c62-409d-878b-e7bff4c8945d.png)
+
+
+
+**Understanding mongodb-service.yml file**
+
+![image](https://user-images.githubusercontent.com/52998083/226173159-a1440e2c-23de-43b1-9acd-429dd90883e4.png)
+
+
 
 ## 4.Create ConfigMap for Storing DB Server URL
 
